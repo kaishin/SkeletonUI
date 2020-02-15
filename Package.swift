@@ -16,20 +16,9 @@ let package = Package(
             targets: ["SkeletonUI"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.7.1")
-    ],
     targets: [
         .target(
             name: "SkeletonUI"
-        ),
-        .testTarget(
-            name: "SkeletonUISnapshotTests",
-            dependencies: ["SkeletonUI", "SnapshotTesting"]
-        ),
-        .testTarget(
-            name: "SkeletonUIUnitTests",
-            dependencies: ["SkeletonUI"]
         )
     ],
     swiftLanguageVersions: [.v5]
