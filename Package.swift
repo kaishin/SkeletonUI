@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SkeletonUI",
+    name: "sekeleton-ui",
     platforms: [
         .iOS(.v13),
         .tvOS(.v13),
